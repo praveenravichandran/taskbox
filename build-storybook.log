@@ -1,0 +1,68 @@
+yarn run v1.22.21
+$ storybook build --output-dir /var/folders/bh/srj9qs0532g0t_s7mypnkpkm0000gs/T/chromatic--61685-7xXOCLu4TYh2
+@storybook/cli v7.6.7
+
+info => Cleaning outputDir: /var/folders/bh/srj9qs0532g0t_s7mypnkpkm0000gs/T/chromatic--61685-7xXOCLu4TYh2
+info => Loading presets
+info => Building manager..
+info => Manager built (198 ms)
+info => Building preview..
+info => Copying static files: /Users/pravnrv/Documents/projects/poc/storybook/taskbox/node_modules/@storybook/manager/static at /var/folders/bh/srj9qs0532g0t_s7mypnkpkm0000gs/T/chromatic--61685-7xXOCLu4TYh2/sb-common-assets
+info => Copying static files: /Users/pravnrv/Documents/projects/poc/storybook/taskbox/public at /var/folders/bh/srj9qs0532g0t_s7mypnkpkm0000gs/T/chromatic--61685-7xXOCLu4TYh2/
+vite v4.5.1 building for production...
+
+./sb-common-assets/fonts.css doesn't exist at build time, it will remain unchanged to be resolved at runtime
+transforming...
+node_modules/telejson/dist/index.mjs (1413:15) Use of eval in "node_modules/telejson/dist/index.mjs" is strongly discouraged as it poses security risks and may cause issues with minification.
+node_modules/telejson/dist/index.mjs (1416:18) Use of eval in "node_modules/telejson/dist/index.mjs" is strongly discouraged as it poses security risks and may cause issues with minification.
+✓ 839 modules transformed.
+rendering chunks...
+computing gzip size...
+../../../../../../../var/folders/bh/srj9qs0532g0t_s7mypnkpkm0000gs/T/chromatic--61685-7xXOCLu4TYh2/iframe.html                                     12.58 kB │ gzip:   3.58 kB
+../../../../../../../var/folders/bh/srj9qs0532g0t_s7mypnkpkm0000gs/T/chromatic--61685-7xXOCLu4TYh2/assets/percolate-dac75269.ttf                   34.04 kB
+../../../../../../../var/folders/bh/srj9qs0532g0t_s7mypnkpkm0000gs/T/chromatic--61685-7xXOCLu4TYh2/assets/percolate-ec979d96.woff                  34.11 kB
+../../../../../../../var/folders/bh/srj9qs0532g0t_s7mypnkpkm0000gs/T/chromatic--61685-7xXOCLu4TYh2/assets/percolate-5ed633c2.eot                   34.21 kB
+../../../../../../../var/folders/bh/srj9qs0532g0t_s7mypnkpkm0000gs/T/chromatic--61685-7xXOCLu4TYh2/assets/percolate-d13fa91b.svg                  140.51 kB │ gzip:  47.50 kB
+../../../../../../../var/folders/bh/srj9qs0532g0t_s7mypnkpkm0000gs/T/chromatic--61685-7xXOCLu4TYh2/assets/preview-4f244d89.css                      6.87 kB │ gzip:   2.06 kB
+../../../../../../../var/folders/bh/srj9qs0532g0t_s7mypnkpkm0000gs/T/chromatic--61685-7xXOCLu4TYh2/assets/_commonjs-dynamic-modules-302442b1.js     0.24 kB │ gzip:   0.19 kB
+../../../../../../../var/folders/bh/srj9qs0532g0t_s7mypnkpkm0000gs/T/chromatic--61685-7xXOCLu4TYh2/assets/WithTooltip-V3YHNWJZ-f6ac22b3.js          0.44 kB │ gzip:   0.27 kB
+../../../../../../../var/folders/bh/srj9qs0532g0t_s7mypnkpkm0000gs/T/chromatic--61685-7xXOCLu4TYh2/assets/syntaxhighlighter-V7JZZA35-2b4d35c5.js    0.45 kB │ gzip:   0.29 kB
+../../../../../../../var/folders/bh/srj9qs0532g0t_s7mypnkpkm0000gs/T/chromatic--61685-7xXOCLu4TYh2/assets/preview-43031db5.js                       0.51 kB │ gzip:   0.33 kB
+../../../../../../../var/folders/bh/srj9qs0532g0t_s7mypnkpkm0000gs/T/chromatic--61685-7xXOCLu4TYh2/assets/index-3fd0d1ea.js                         0.58 kB │ gzip:   0.35 kB
+../../../../../../../var/folders/bh/srj9qs0532g0t_s7mypnkpkm0000gs/T/chromatic--61685-7xXOCLu4TYh2/assets/preview-73104b77.js                       0.64 kB │ gzip:   0.44 kB
+../../../../../../../var/folders/bh/srj9qs0532g0t_s7mypnkpkm0000gs/T/chromatic--61685-7xXOCLu4TYh2/assets/_commonjsHelpers-de833af9.js              0.69 kB │ gzip:   0.38 kB
+../../../../../../../var/folders/bh/srj9qs0532g0t_s7mypnkpkm0000gs/T/chromatic--61685-7xXOCLu4TYh2/assets/index-356e4a49.js                         0.77 kB │ gzip:   0.47 kB
+../../../../../../../var/folders/bh/srj9qs0532g0t_s7mypnkpkm0000gs/T/chromatic--61685-7xXOCLu4TYh2/assets/index-8d47fad6.js                         0.80 kB │ gzip:   0.52 kB
+../../../../../../../var/folders/bh/srj9qs0532g0t_s7mypnkpkm0000gs/T/chromatic--61685-7xXOCLu4TYh2/assets/preview-0ef86afd.js                       0.86 kB │ gzip:   0.55 kB
+../../../../../../../var/folders/bh/srj9qs0532g0t_s7mypnkpkm0000gs/T/chromatic--61685-7xXOCLu4TYh2/assets/preview-0476134e.js                       1.04 kB │ gzip:   0.67 kB
+../../../../../../../var/folders/bh/srj9qs0532g0t_s7mypnkpkm0000gs/T/chromatic--61685-7xXOCLu4TYh2/assets/entry-preview-fb6629d6.js                 1.12 kB │ gzip:   0.66 kB
+../../../../../../../var/folders/bh/srj9qs0532g0t_s7mypnkpkm0000gs/T/chromatic--61685-7xXOCLu4TYh2/assets/index-11d98b33.js                         2.59 kB │ gzip:   1.26 kB
+../../../../../../../var/folders/bh/srj9qs0532g0t_s7mypnkpkm0000gs/T/chromatic--61685-7xXOCLu4TYh2/assets/preview-30b54f76.js                       3.21 kB │ gzip:   1.37 kB
+../../../../../../../var/folders/bh/srj9qs0532g0t_s7mypnkpkm0000gs/T/chromatic--61685-7xXOCLu4TYh2/assets/Task.stories-cd71f1f7.js                  3.66 kB │ gzip:   1.54 kB
+../../../../../../../var/folders/bh/srj9qs0532g0t_s7mypnkpkm0000gs/T/chromatic--61685-7xXOCLu4TYh2/assets/iframe-5b1cf56c.js                        4.64 kB │ gzip:   1.67 kB
+../../../../../../../var/folders/bh/srj9qs0532g0t_s7mypnkpkm0000gs/T/chromatic--61685-7xXOCLu4TYh2/assets/preview-d01b88e8.js                       5.23 kB │ gzip:   2.39 kB
+../../../../../../../var/folders/bh/srj9qs0532g0t_s7mypnkpkm0000gs/T/chromatic--61685-7xXOCLu4TYh2/assets/index-76fb7be0.js                         7.16 kB │ gzip:   2.91 kB
+../../../../../../../var/folders/bh/srj9qs0532g0t_s7mypnkpkm0000gs/T/chromatic--61685-7xXOCLu4TYh2/assets/preview-da31036b.js                       7.62 kB │ gzip:   1.56 kB
+../../../../../../../var/folders/bh/srj9qs0532g0t_s7mypnkpkm0000gs/T/chromatic--61685-7xXOCLu4TYh2/assets/preview-c56bf6ac.js                       8.28 kB │ gzip:   3.16 kB
+../../../../../../../var/folders/bh/srj9qs0532g0t_s7mypnkpkm0000gs/T/chromatic--61685-7xXOCLu4TYh2/assets/index-da07a199.js                        13.61 kB │ gzip:   5.08 kB
+../../../../../../../var/folders/bh/srj9qs0532g0t_s7mypnkpkm0000gs/T/chromatic--61685-7xXOCLu4TYh2/assets/Color-6VNJS4EI-81cdcbcb.js               17.64 kB │ gzip:   6.75 kB
+../../../../../../../var/folders/bh/srj9qs0532g0t_s7mypnkpkm0000gs/T/chromatic--61685-7xXOCLu4TYh2/assets/TaskList.stories-49426b96.js             32.35 kB │ gzip:  12.06 kB
+../../../../../../../var/folders/bh/srj9qs0532g0t_s7mypnkpkm0000gs/T/chromatic--61685-7xXOCLu4TYh2/assets/preview-f8bdd522.js                      34.23 kB │ gzip:  13.36 kB
+../../../../../../../var/folders/bh/srj9qs0532g0t_s7mypnkpkm0000gs/T/chromatic--61685-7xXOCLu4TYh2/assets/preview-21802b0a.js                      72.07 kB │ gzip:  24.33 kB
+../../../../../../../var/folders/bh/srj9qs0532g0t_s7mypnkpkm0000gs/T/chromatic--61685-7xXOCLu4TYh2/assets/_getPrototype-1e53b583.js                78.40 kB │ gzip:  23.40 kB
+../../../../../../../var/folders/bh/srj9qs0532g0t_s7mypnkpkm0000gs/T/chromatic--61685-7xXOCLu4TYh2/assets/react-18-236157c6.js                    134.55 kB │ gzip:  43.44 kB
+../../../../../../../var/folders/bh/srj9qs0532g0t_s7mypnkpkm0000gs/T/chromatic--61685-7xXOCLu4TYh2/assets/entry-preview-docs-17bdf6ae.js          212.41 kB │ gzip:  65.84 kB
+../../../../../../../var/folders/bh/srj9qs0532g0t_s7mypnkpkm0000gs/T/chromatic--61685-7xXOCLu4TYh2/assets/index-03d05a58.js                       375.25 kB │ gzip: 115.53 kB
+../../../../../../../var/folders/bh/srj9qs0532g0t_s7mypnkpkm0000gs/T/chromatic--61685-7xXOCLu4TYh2/assets/DocsRenderer-NNNQARDV-d51055fa.js       537.36 kB │ gzip: 175.09 kB
+../../../../../../../var/folders/bh/srj9qs0532g0t_s7mypnkpkm0000gs/T/chromatic--61685-7xXOCLu4TYh2/assets/axe-c259e37e.js                         556.42 kB │ gzip: 152.71 kB
+../../../../../../../var/folders/bh/srj9qs0532g0t_s7mypnkpkm0000gs/T/chromatic--61685-7xXOCLu4TYh2/assets/InboxScreen.stories-5e0eab54.js         563.60 kB │ gzip: 149.02 kB
+../../../../../../../var/folders/bh/srj9qs0532g0t_s7mypnkpkm0000gs/T/chromatic--61685-7xXOCLu4TYh2/assets/formatter-SWP5E3XI-470e514e.js          601.64 kB │ gzip: 185.03 kB
+
+(!) Some chunks are larger than 500 kBs after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 14.95s
+info => Preview built (16 s)
+info => Output directory: /var/folders/bh/srj9qs0532g0t_s7mypnkpkm0000gs/T/chromatic--61685-7xXOCLu4TYh2
+Done in 19.16s.
